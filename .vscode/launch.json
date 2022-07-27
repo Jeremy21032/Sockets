@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch cliente2",
+            "request": "launch",
+            "mainClass": "cliente2",
+            "projectName": "sockets_638e0d5f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch cliente",
+            "request": "launch",
+            "mainClass": "cliente",
+            "projectName": "sockets_638e0d5f"
+        },
+        {
+            "type": "java",
+            "name": "Launch hola",
+            "request": "launch",
+            "mainClass": "hola",
+            "projectName": "sockets_638e0d5f"
+        },
+        {
+            "type": "java",
+            "name": "Launch servidor",
+            "request": "launch",
+            "mainClass": "servidor",
+            "projectName": "sockets_638e0d5f"
+        }
+    ],
+    "compunds":[
+        {
+            "name":"Compunds",
+            "configurations":["Launch servidor2", "Launch cliente2"]
+        }
+    ]
+}
